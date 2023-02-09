@@ -1,0 +1,12 @@
+<!Doctype html>
+<html>
+<head>
+<title>javascript</title>
+	<script>
+		consol.log('hello')
+	</script>
+</head>
+<body>
+	<h1>first program of js</h1>
+</body>
+</html>
