@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valid Age For licens</title>
+</head>
+<body>
+    
+    <script>
+        //Que - 
+        let a = prompt("Hey What's you are age");
+        a = Number.parseInt(a);  //coverting a string into a number
+
+        if(a<0){
+            alert("You are not able to get a lisence");
+        }
+        else if(a<9){
+            alert("You are a kid ");
+        }
+        else if(a<18 && a>=9){
+            alert("you are a kid and you think about driving license after 18");
+        }
+        else{
+           alert(" You are a ");
+
+        }
+    </script>
+
+</body>
+</html>
